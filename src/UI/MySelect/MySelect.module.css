@@ -1,0 +1,15 @@
+.MySelect {
+    top: 0;
+    left: 0;
+    height: 40px;
+    background: #fff;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2),
+    15px 15px 15px rgba(0, 0, 0, 0.2),
+    20px 20px 20px rgba(0, 0, 0, 0.2),
+    30px 30px 30px rgba(0, 0, 0, 0.2),
+    inset 1px 1px 2px #fff;
+    cursor: pointer;
+}

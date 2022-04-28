@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffc004;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App {
+    width: 600px;
+    align-items: center;
+}
+
+.post0 {
+    padding-left: 10px;
+    align-items: center;
+    display: flex;
+    width: 400px;
+    height: 60px;
+    transform: skew(10deg);
+    background: linear-gradient(0deg,#D4D5DA, #D4D5DA );
+    border-bottom: 1px solid #b8bac2;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2),
+    15px 15px 15px rgba(0, 0, 0, 0.2),
+    20px 20px 20px rgba(0, 0, 0, 0.2),
+    30px 30px 30px rgba(0, 0, 0, 0.2),
+    inset 1px 1px 2px #fff;
+    justify-content: space-between;
+    padding-right: 10px;
+    cursor: grab;
+}
+
+.post1 {
+    padding-left: 10px;
+    align-items: center;
+    display: flex;
+    width: 400px;
+    height: 60px;
+    transform: skew(-10deg);
+    background: linear-gradient(to right, white, #D4D5DA);
+    border-bottom: 1px solid #b8bac2;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2),
+    15px 15px 15px rgba(0, 0, 0, 0.2),
+    20px 20px 20px rgba(0, 0, 0, 0.2),
+    30px 30px 30px rgba(0, 0, 0, 0.2),
+    inset 1px 1px 2px #fff;
+    justify-content: space-between;
+    padding-right: 10px;
+    cursor: grab;
+}
+
+.postContent .text{
+  max-width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.postButton {
+    display: flex;
+}
+
+.pin {
+    margin-bottom: -35px;
+    width: 50px;
+    z-index: 2;
+    left: 49%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instruments {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.inputForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-enter {
+    opacity: 0;
+}
+.post-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
