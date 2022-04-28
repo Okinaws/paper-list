@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/paper-list/static/css/main.a682652e.css",
+    "main.js": "/paper-list/static/js/main.afa2ea0b.js",
+    "static/media/pushpin.svg": "/paper-list/static/media/pushpin.f4922c86f99dd7ba7bc92444f4a5e148.svg",
+    "index.html": "/paper-list/index.html",
+    "main.a682652e.css.map": "/paper-list/static/css/main.a682652e.css.map",
+    "main.afa2ea0b.js.map": "/paper-list/static/js/main.afa2ea0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a682652e.css",
+    "static/js/main.afa2ea0b.js"
+  ]
+}
